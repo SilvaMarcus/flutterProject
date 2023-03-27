@@ -9,7 +9,7 @@ class PerguntaApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text(
+          title: const Text(
             'Perguntas',
             textAlign: TextAlign.center,
           ),
